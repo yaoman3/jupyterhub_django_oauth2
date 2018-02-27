@@ -13,3 +13,9 @@ To test this, just run:
     docker-compose up --build
 
 The sample web app will be served on port 8000, and the jupyterhub will be on 8001.
+
+Run in local:
+    1. start Jupyterhub:
+    ``` jupyterhub -f jupyterhub_config.py --port 8001 ```
+    2. start Django:
+    ``` ./run.sh ```
